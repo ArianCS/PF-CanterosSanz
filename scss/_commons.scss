@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+// titles
+h1{
+    @extend .text-align;
+    color: $colorPrincipal;
+    font-size: $textH1;
+    background-color: $secondaryColor;
+    font-family: $font1;
+    width: 100%
+}
+
+h2{
+    font-size: $textH2;
+    font-family: $font1;
+}
+
+h3{
+    font-size: $textH3;
+    font-family:$font1;
+}
+
+p{
+    font-size: $textP;
+}
+
+// nav
+nav{
+    background-color: $colorPrincipal;
+    div{
+        #navbarSupportedContent{
+            margin-top: $marginTop2;
+            ul{
+                li{
+                    a{
+                        h3{
+                            font-size: $textP;
+                        }
+                        &:hover{
+                            color: $thirdColor;
+                        }
+                    }
+                }
+                li{
+                    ul{
+                        li{
+                            a{
+                                font-size: $textP;
+                                color: $colorPrincipal;
+                                background-color: $secondaryColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// footer
+footer{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondaryColor;
+    margin-bottom: 0%;
+    .redes{
+        margin-left: 1%;
+        p{
+            font-size: $textP;
+            color: $colorPrincipal;
+        }
+    }
+    .mensaje{
+        p{
+            font-family: $font2;
+            font-size: $textH1;
+            font-weight: 300;
+            color: $colorPrincipal;
+            margin-top: -7rem;
+        }
+    }
+}
+
+// media 576
+@media (max-width: 991px){
+    h1{
+        font-size: $textH3;
+    }
+    .mensaje{
+        display: none;
+    }
+}

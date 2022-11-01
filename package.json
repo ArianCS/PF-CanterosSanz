@@ -1,0 +1,16 @@
+{
+  "name": "intento-scss",
+  "version": "1.0.0",
+  "description": "A continuación detallo todas las modificaciones que le hice a la web con respecto a la entrega anterior: - Simplifiqué código sin uso. - Optimicé clases difíciles de seguir. - Pasé todos los archivos de JPG/PNG a WEBP. - Agregué bootstrap a todas las nav. - Armé un footer simple con flex. - La sección historia la hice con flexbox y con grid. - Puse un fondo gradual en el formulario. - Agregué la propiedad transform: scale en la seccion mapas (aunque aún me queda por trabajar esta sección). - También inserté un transform: scalex en los mapas detallados de cada linea. - Inserté la propiedad transform: rotate en el footer para los iconos de las redes. - Mejoré el header/index con un carousel y estandaricé las imgs a    1900 X 800px - Cambié la sección noticias maquetada solo con flexbox, a bootstrap. - Para la parte responsive solo trabajé con las páginas Tarifas (y horarios) y Accesibilidad. - Maqueté con bootstrap la seccion noticias del index y con flexbox la sección del Estado del Servicio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

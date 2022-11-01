@@ -1,0 +1,159 @@
+// mapas enteros
+.mapas{
+    width: 99%;
+    height: auto;
+    padding: 1rem;
+    div{
+        display: $d-Flex;
+        justify-content: center;
+        h2{
+            width: 40%;
+            height: auto;
+            font-size: $textH2;
+            color: $colorPrincipal;
+            background-color: $thirdColor;
+        }
+    }
+    img{
+        width: 45%;
+        height: 100%;
+        margin-left: map-get($map: $left, $key: 'dos');
+        padding-top: 5rem;
+        background-color: white;
+    }
+}
+
+// mapas combinaciones
+section{
+    margin-top: $marginTop4;
+    margin-bottom: $marginBttm2;
+    h2{
+        padding-left: 2.5rem;
+        font-size: $textH2;
+        text-transform: uppercase;
+        font-family:'Raleway', sans-serif;
+        background-color: $colorPrincipal;
+    }
+    #combinacionesImg{
+        h3{
+            margin-top: $marginTop2;
+            margin-left: map-get($map: $left, $key: 'uno');
+            font-size: 2.5rem;
+            font-weight: $f-Weight1;
+            font-family:'Raleway', sans-serif;
+            text-shadow: -5px 2px 4px rgba(0,0,0,0.6);
+            color: $thirdColor;
+        }
+        #bg-A{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'a');
+        }
+        #bg-B{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'b');
+        }
+        #bg-C{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'c');
+        }
+        #bg-D{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'd');
+        }
+        #bg-E{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'e');
+        }
+        #bg-H{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'h');
+        }
+        #bg-P{
+            @extend .bg-combinaciones;
+            background-color: map-get($map: $bg-color, $key: 'p');
+        }
+        a{
+            img{
+                margin-top: $marginTop1;
+                &:hover{
+                    cursor: move;
+                }
+            }
+        }
+    }
+}
+
+// media
+// media 270
+@media (min-width: 270px) and (max-width: 575px){
+    .mapas{
+        padding: 0rem;
+        div{
+            display: $d-Flex;
+            h2{
+                display: none;
+            }
+        }
+        img{
+            width: 100%;
+            margin-left: map-get($map: $left, $key: 'cero');
+            padding-top: 2.5rem;
+        }
+    }
+    #combinaciones{
+        margin-top: $marginTop3;
+        margin-bottom: $marginBttm1;
+        h2{
+            padding-left: 0rem;
+            font-size: $textH3;
+            text-align: center;
+        }
+        #combinacionesImg{
+            h3{
+                margin-top: $marginTop2;
+                margin-left: map-get($map: $left, $key: 'cero');
+                font-size: $textP;
+            }
+            #bg-A{
+                height: 4rem;
+            }
+            #bg-B{
+                height: 4rem;
+            }
+            #bg-C{
+                height: 4rem;
+            }
+            #bg-D{
+                height: 4rem;
+            }
+            #bg-E{
+                height: 4rem;
+            }
+            #bg-H{
+                height: 4rem;
+            }
+            #bg-P{
+                height: 4rem;
+            }
+        }
+    }
+}
+
+// media576
+@media (min-width: 576px) and (max-width: 991px){
+    .mapas{
+        padding: 0rem;
+        div{
+            display: $d-Flex;
+            h2{
+                display: none;
+            }
+        }
+        img{
+            width: 100%;
+            margin-left: map-get($map: $left, $key: 'cero');
+            padding-top: 2.5rem;
+        }
+    }
+
+}

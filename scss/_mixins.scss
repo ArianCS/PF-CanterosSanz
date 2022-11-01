@@ -1,0 +1,102 @@
+// extend
+.text-align{
+    text-align: center;
+}
+
+// formulario inputs index
+.input-form{
+    background-color: transparent;
+    margin-bottom: $marginBttm2;
+    box-shadow: -9px 10px 20px -3px rgba(0,0,0,0.75);
+}
+
+// mapas bg
+.bg-combinaciones{
+    width: 100%;
+    height: 5rem;
+    padding-left: 2.5rem;
+    margin-left: 0rem;
+    padding-top: 0.75rem;
+}
+
+// maps
+$left:(
+    'cero': 0rem,
+    'uno': 1rem,
+    'dos': 2.5rem,
+    '-dos': -2rem,
+    'tres': 3.5rem,
+    'cuatro': 4rem,
+    'cinco': 5%,
+    'seis': 6rem,
+    'siete': 7.5rem,
+    'once-cinco': 11.5rem,
+    'quince': 15rem,
+    'venti-cinco': 25rem,
+    'venti-siete': 27.5%,
+    'venti-ocho': 28vw,
+    'treinta': 30%,
+    'treinta-cinco': 35rem,
+    'treinta-cinco%': 35%,
+);
+
+$bg-color:(
+    'a': rgb(0, 179, 223),
+    'a2': #00b8e6,
+    'a3': #00ccff,
+    'a4': #1ad1ff,
+    'a5': #33d6ff,
+    'a6': #4ddbff,
+    'a7': #66e0ff,
+    'a8': #80e5ff,
+    'a9': #99ebff,
+    'a10': #b3f0ff,
+    'b': rgb(228, 38, 64),
+    'b2': #e6334b,
+    'b3': #e9495f,
+    'b4': #eb6073,
+    'b5': #ee7787,
+    'b6': #f18e9b,
+    'b7': #f4a4af,
+    'b8': #f7bbc3,
+    'b9': #f9d2d7,
+    'b10': #fce8eb,
+    'c': rgb(1, 61, 147),
+    'c2': #014098,
+    'c3': #014bb2,
+    'c4': #0155cb,
+    'c5': #0160e4,
+    'c6': #016afe,
+    'd': rgb(2, 114, 92),
+    'd2': #027e65,
+    'd3': #029779,
+    'd4': #03b08d,
+    'd5': #03c9a1,
+    'd6': #03e2b6,
+    'd7': #04fbca,
+    'd8': #1dfccf,
+    'd9': #36fcd4,
+    'd10': #4ffcda,
+    'd11': #68fddf,
+    'd12': #81fde4,
+    'e': rgb(117, 30, 124),
+    'e2': #882390,
+    'e3': #9c28a4,
+    'e4': #af2db9,
+    'e5': #c332cd,
+    'e6': #c946d2,
+    'e7': #cf5bd7,
+    'e8': #d56fdc,
+    'e9': #db84e1,
+    'e10': #e198e6,
+    'e11': #e7adeb,
+    'h': rgb(244, 201, 1),
+    'h2': #fecf01,
+    'h3': #fed41b,
+    'h4': #fed934,
+    'h5': #fede4d,
+    'h6': #fee267,
+    'h7': #fee780,
+    'p': rgb(245, 177, 32),
+);
+

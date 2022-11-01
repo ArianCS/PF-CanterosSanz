@@ -1,0 +1,230 @@
+// tarifas
+main{ 
+    .precios{
+        width: 85%;
+        margin-left: 7.5%;
+        h2{
+            width: 90%;
+            font-size: $textH2;
+            color: $colorPrincipal;
+            margin-left: 2.5%;
+            background-color: $thirdColor;
+        }
+        p{
+            font-size: $textP;
+            margin-top: $marginTop2;
+            margin-left: 3%;
+        }
+        table{
+            width: 50%;
+            margin-top: $marginTop3;
+            margin-left: 3.5%;
+            font-size: $textP;
+            @extend .text-align;
+        }
+            thead{
+                .primer-linea{
+                    background-color: rgb(245, 177, 32);
+                }
+            }
+            tbody{
+                .segunda-linea{
+                    background-color: $colorPrincipal;
+                }
+                .tercer-linea{
+                    background-color: rgb(242, 246, 248);
+                }
+            }
+        div{
+            width: 100%;
+            margin-top: $marginTop3;
+            display: flex;
+            flex-direction: column;
+            h3{
+                margin-top: $marginTop3;
+                font-size: $textH3;
+                color: $colorPrincipal;
+                margin-left: 2.5%;
+            }
+            #estaciones-completas{
+                margin-top: $marginTop3;
+                align-self: center;
+                display: block;
+            }
+            div{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // horario
+    .horarios{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            width: 100%;
+            padding-left: 0%;
+            text-align: center;
+            background-color: $colorPrincipal;
+        }
+        h3{
+            width: 80%;
+            margin-top: $marginTop2;
+            font-size: $textH3;
+            @extend .text-align;
+            background-color: orange;
+        }
+        p{
+            width: 30%;
+            margin-top: $marginTop2;
+            @extend .text-align;
+        }
+        img{
+            margin-top: $marginTop2;
+            margin-bottom: $marginBttm2;
+        }
+        div{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+
+// media
+// media 270
+@media (min-width: 270px) and (max-width: 575px){
+    main{
+        .precios{
+            width: 100%;
+            margin-left: 0%;
+            h2{
+                margin-left: 2.5%;
+                text-align: center;
+                font-size: $textH3;
+            }
+            p{
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            table{
+                width: 100%;
+                margin-left: 0%;
+                text-align: center;
+                th{
+                    font-size: 1.5rem;
+                }
+                td{
+                    font-size: 1.5rem;
+                }
+            }
+            div{
+                h2{
+                    font-size: $textH3;
+                }
+                h3{
+                    width: 100%;
+                    font-size: $textH3;
+                    font-weight: $f-Weight1;
+                }
+                #estaciones-completas{
+                    display: none;
+                }
+                div{
+                    img{
+                        display: block;
+                    }
+                }
+            }
+        }
+// horario
+        .horarios{
+            width: 100%;
+            h2{
+                width: 100%;
+                padding-left: 0%;
+                text-align: center;
+                font-size: $textH3;
+            }
+            h3{
+                width: 90%;
+                font-size: $textP;
+            }
+            p{
+                width: 90%;
+                font-size: 1.5rem;
+            }
+            img{
+                display: none;
+            }
+            div{
+                img{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+// media 576
+@media (min-width: 576px) and (max-width: 991px){
+    main{
+        .precios{
+            width: 90%;
+            margin-left: 7.5%;
+            h2{
+                margin-left: 2.5%;
+                text-align: center;
+                font-size: $textH3;
+            }
+            p{
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            table{
+                width: 90%;
+                text-align: center;
+            }
+            div{
+                h2{
+                    font-size: $textH3;
+                }
+                h3{
+                    width: 100%;
+                    font-size: $textH3;
+                    font-weight: $f-Weight1;
+                }
+            }
+        }
+// horario
+        .horarios{
+            width: 100%;
+            h2{
+                width: 100%;
+                padding-left: 0%;
+                text-align: center;
+                font-size: $textH3;
+            }
+            h3{
+                width: 70%;
+                font-size: $textP;
+            }
+            p{
+                width: 90%;
+                font-size: 1.5rem;
+            }
+            img{
+                display: none;
+            }
+            div{
+                img{
+                    display: block;
+                }
+            }
+        }
+    }
+}

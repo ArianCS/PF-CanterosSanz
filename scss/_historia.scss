@@ -1,0 +1,287 @@
+// historia
+.historia{
+    div{
+        #historiaTitle{
+            width: 60%;
+            margin-left: map-get($map: $left, $key: 'treinta');
+            padding-left: map-get($map: $left, $key: 'cinco');
+            margin-top: $marginTop3;
+            color: $colorPrincipal;
+        }
+    }
+    #presentacion{
+        div{
+            display: flex;
+            justify-content: center;
+            div{
+                margin-top: $marginTop2;
+                iframe{
+                    margin-top: $marginTop3;
+                }
+            }
+        }
+    }
+    // franja amarilla
+    .division{
+        h3{
+            font-size: $textH3;
+            font-weight: 500;
+            @extend .text-align;
+            padding-top: $marginTop2;
+            color: $secondaryColor;
+        }
+    }
+    // fotos
+    #old-pictures{
+        margin-top: $marginTop3;
+        .audiovisual__fotos{
+            width: 99%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 600px);
+            grid-template-rows: repeat(3, 450px);
+            grid-template-areas:
+            "a a b"
+            "c d e"
+            "g f f";
+            gap: 2.75rem;
+            #a{
+                grid-area: a;
+            }
+        
+            #b{
+                grid-area: b;
+            }
+        
+            #c{
+                grid-area: c;
+            }
+        
+            #d{
+                grid-area: d;
+            }
+        
+            #e{
+                grid-area: e;
+            }
+        
+            #f{
+                grid-area: f;
+            }
+        
+            #g{
+                grid-area: g;
+            }
+        }
+    }
+    // divisor amarillo
+    .division-historia{
+        h2{
+            width: 100%;
+            height: 10vh;
+            font-size: $textH3;
+            margin-top: $marginTop2;
+            padding-top: 0.5rem;
+            margin-left: 0rem;
+            margin-bottom: $marginBttm2;
+            @extend .text-align;
+            color: $secondaryColor;
+            background-color: $colorPrincipal;
+        }
+    }
+    .audiovisual__historia{
+        #linea-A{
+            width: 100%;
+            display:flex;
+            justify-content: space-evenly;
+            img{
+                margin: 0%;
+            }
+        }
+        // media especial
+        @media (max-width:1652px){
+            #linea-A{
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 75%;
+                    margin-top: $marginTop1;
+                }
+            }
+        }
+        p{
+            width: 75%;
+            margin-top: $marginTop3;
+            margin-bottom: $marginBttm2;
+            margin-left: map-get($map: $left, $key: 'tres');
+        }
+        #mapa{
+            margin-top: $marginTop3;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+// extensiones
+.extensiones{
+    h2{
+        width: 80%;
+        margin-top: $marginTop3;
+        text-align: center;
+        color: $colorPrincipal;
+        background-color: $thirdColor;
+    }
+    p{
+        width: 80%;
+        margin-top: $marginTop3;
+        margin-left: map-get($map: $left, $key: 'quince');
+        font-size: $textP;
+    }
+    h3{
+        width: 80%;
+        font-size: $textH3;
+        margin-top: $marginTop3;
+        margin-left: map-get($map: $left, $key: 'tres');
+        color: $colorPrincipal;  
+    }
+    div{
+        margin-top: $marginTop3;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// extensiones premetro
+#premetro{
+    h2{
+        width: 20%;
+        margin-top: $marginTop3;
+        margin-left: map-get($map: $left, $key: 'siete');
+        color: $colorPrincipal;
+    }
+    #fotos-pre{
+       display: flex;
+       justify-content: space-evenly;
+       img{
+        margin: 0%;
+       }
+    }
+    .premetro__txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            width: 80%;
+            font-size: $textP;
+            margin-top: $marginTop2;
+            margin-bottom: $marginBttm2;
+        }
+    }
+}
+
+// medias
+// media especial
+@media (max-width:1652px){
+    #fotos-pre{
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 40%;
+            margin-top: $marginTop1;
+        }
+    }
+}
+@media (max-width:1400px){
+    .historia{
+        div{
+            #historiaTitle{
+                width: 60%;
+                margin-left: 28rem;
+                padding-left: map-get($map: $left, $key: 'cinco');
+            }
+        }
+        #presentacion{
+            div{
+                flex-direction: column;
+                div{
+                    margin-top: $marginTop2;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px){
+    .historia{
+        div{
+            #historiaTitle{
+                width: 90%;
+                margin-left: map-get($map: $left, $key: 'tres');
+            }
+        }
+        #presentacion{
+            div{
+                div{
+                    iframe{
+                        width: 100%;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:590px){
+    .historia{
+        div{
+            #historiaTitle{
+                font-size: $textH3;
+            }
+        }
+    }
+    .division{display: none;
+        h3{
+            display: none;
+        }
+    }
+    #fotos-pre{
+        img{
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width:380px){
+    .historia{
+        div{
+            #historiaTitle{
+                width: 100%;
+                margin-left: 0%;
+            }
+        }
+        #presentacion{
+            div{
+                div{
+                    iframe{
+                        height: 20rem;
+                    }
+                }
+            }
+        }
+        #premetro{
+            h2{
+                width: 100%;
+                margin-left: 0%;
+                text-align: center;
+            }
+            #fotos-pre{
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

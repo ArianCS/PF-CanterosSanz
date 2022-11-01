@@ -1,0 +1,535 @@
+// accesibilidad
+main{
+    section{
+        div{
+            div{
+                div{
+                    p{
+                        font-weight: $f-Weight2;
+                        text-align: center;
+                        margin-top: $marginTop2;
+                    }
+                }
+                div{
+                    h2{
+                        color: $colorPrincipal;
+                        margin-top: $marginTop2;
+                        background-color: $thirdColor;
+                    }
+                }
+            }
+            .accordion{
+                margin-top: $marginTop5;
+                margin-bottom: $marginBttm2;
+                div{
+                    box-shadow: -6px 7px 7px 0px rgba(92,72,72,0.75);
+                    button{
+                        height: 4rem;
+                        p{
+                            margin-top: 0.5rem;
+                            font-size: $textP;
+                            font-weight: 400;
+                            text-shadow: -5px 2px 4px rgba(0,0,0,0.6);
+                            color: $thirdColor;
+                            &:hover{
+                                color: $secondaryColor;
+                            }
+                        }
+                    }
+                    div{
+                        div{
+                            ul{
+                                li{
+                                    color: $secondaryColor;
+                                    font-size: $textP;
+                                    font-weight: 400;
+                                    @extend .text-align; 
+                                } 
+                                #A{
+                                    margin-top: 3px;
+                                    border: 1px solid map-get($map: $bg-color, $key: 'a'); 
+                                    background-color: map-get($map: $bg-color, $key: 'a');
+                                    .A2{
+                                        background-color: map-get($map: $bg-color, $key: 'a2');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A3{
+                                        background-color: map-get($map: $bg-color, $key: 'a3');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A4{
+                                        background-color: map-get($map: $bg-color, $key: 'a4');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A5{
+                                        background-color: map-get($map: $bg-color, $key: 'a5');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A6{
+                                        background-color: map-get($map: $bg-color, $key: 'a6');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A7{
+                                        background-color: map-get($map: $bg-color, $key: 'a7');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A8{
+                                        background-color: map-get($map: $bg-color, $key: 'a8');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A9{
+                                        background-color: map-get($map: $bg-color, $key: 'a9');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .A10{
+                                        background-color: map-get($map: $bg-color, $key: 'a10');
+                                        box-shadow: none;
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                }
+                                #B{
+                                    border: 1px solid map-get($map: $bg-color, $key: 'b');
+                                    background-color: map-get($map: $bg-color, $key: 'b');
+                                    .B2{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b2');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B3{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b3');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B4{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b4');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B5{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B6{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b6');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B7{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b7');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B8{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b8');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B9{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b9');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .B10{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'b10');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                } 
+                                #C{
+                                    border: 1px solid map-get($map: $bg-color, $key: 'c');
+                                    background-color: map-get($map: $bg-color, $key: 'c');
+                                    .C2{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'c2');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .C3{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'c3');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .C4{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'c4');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .C5{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'c5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .C6{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'c5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                }
+                                #D{
+                                    border: 1px solid map-get($map: $bg-color, $key: 'd');
+                                    background-color: map-get($map: $bg-color, $key: 'd');
+                                    .D2{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd2');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D3{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd3');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D4{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd4');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D5{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D6{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd6');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D7{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd7');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D8{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd8');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D9{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd9');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D10{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd10');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .D11{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'd11');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                }
+                                #E{
+                                    border: 1px solid map-get($map: $bg-color, $key: 'e');
+                                    background-color: map-get($map: $bg-color, $key: 'e');
+                                    .E2{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e2');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E3{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e3');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E4{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e4');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E5{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E6{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e6');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E7{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e7');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E8{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e8');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E9{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e9');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E10{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e10');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .E11{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'e11');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                }
+                                #H{
+                                    border: 1px solid map-get($map: $bg-color, $key: 'h');
+                                    background-color: map-get($map: $bg-color, $key: 'h');
+                                    .H2{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h2');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .H3{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h3');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .H4{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h4');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .H5{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h5');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .H6{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h6');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                    .H7{
+                                        box-shadow: none;
+                                        background-color: map-get($map: $bg-color, $key: 'h7');
+                                        border-radius: 12px;
+                                        &:hover{
+                                            color: $thirdColor;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.accordion-item1, #accordion-button1{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'a');
+}
+
+.accordion-item2, #accordion-button2{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'b');
+    margin-top: $marginTop2;
+}
+
+.accordion-item3, #accordion-button3{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'c');
+    margin-top: $marginTop2;
+}
+
+.accordion-item4, #accordion-button4{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'd');
+    margin-top: $marginTop2;
+}
+
+.accordion-item5, #accordion-button5{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'e');
+    margin-top: $marginTop2;
+}
+
+.accordion-item6, #accordion-button6{
+    border-radius: 11px 4px 11px 6px;
+    background-color: map-get($map: $bg-color, $key: 'h');
+    margin-top: $marginTop2;
+}
+
+// media
+// 270
+@media (min-width: 270px){
+    /* accesibilidad */
+    main{
+        margin-left: 0.01rem;
+        section{
+            div{
+                div{
+                    div{
+                        p{
+                            font-size: 1.5rem;
+                            font-weight: bold;
+                        }
+                    }
+                    div{
+                        h2{
+                            font-size: $textH3;
+                            text-align: center; 
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}

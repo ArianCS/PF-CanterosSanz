@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina del subte de CABA para que no tengas excusa de llegar tarde">
+    <meta name="keywords" content="Subte, lineas, horarios, premetro">
+    <title>Subte CABA</title>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/iconos/logo.webp" type="image/x-icon">
+    <!-- css propio -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <!-- start nav-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/iconos/logo1.webp" alt="Logo Buenos Aires Subte">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">
+                            <h3>HOME</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="mapas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h3>MAPAS</h3>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="mapas.html">
+                                    <p>INFO ESTACIONES</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tarifas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h3>TARIFAS</h3>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="tarifas.html">
+                                    <p>HORARIOS</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="historia.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <h3>HISTORIA</h3>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="historia.html">
+                                    <p>PROYECTOS</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="accesibilidad.html">
+                            <H3>ACCESIBILIDAD</H3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ends nav-->
+    <!-- start header -->
+    <header>
+        <h1>ACCESIBILIDAD</h1>  
+    </header>
+    <!-- ends header -->
+    <!-- start main -->
+    <main>
+        <section class="mapa-acc">
+            <!-- BS Grid -->
+            <div class="container-col-12" id="container-acc">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <p>Telefono para informacion detallada sobre inclusión y accesibilidad. 0800-333-6682</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-8">
+                        <h2 id="estaciones-acc__titulo">ESTACIONES ACCESIBLES</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-lg-2">
+                         <!-- ACCORDION BS -->
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item1">
+                        <button class="accordion-button" class="rounded" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" id="accordion-button1">
+                            <p class="button-title">Linea A</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="A">
+                                        <div class="A2">San Pedrito</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A3">San Jose de Flores</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A4">Carabobo</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A5">1° Junta</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A6">Acoyte</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A7">Plaza Miserere</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A8">Congreso</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A9">Lima</div>
+                                    </li>
+                                    <li class="list-group-item" id="A">
+                                        <div class="A10">Perú</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" id="accordion-button2">
+                            <p class="button-title">Linea B</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="B">
+                                        <div class="B2">Juan Manuel de Rosas</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B3">Echeverria</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B4">Los Incas</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B5">Tronador</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B6">Federico Lacroze</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B7">Manuel Dorrego</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B8">Pueyrredon</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B9">Pasteur</div>
+                                    </li>
+                                    <li class="list-group-item" id="B">
+                                        <div class="B10">Carlos Pellegrini</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" id="accordion-button3">
+                            <p class="button-title">Linea C</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="C">
+                                        <div class="C2">Constitución</div>
+                                    </li>
+                                    <li class="list-group-item" id="C">
+                                        <div class="C3">Independencia</div>
+                                    </li>
+                                    <li class="list-group-item" id="C">
+                                        <div class="C4">Avenida de Mayo</div>
+                                    </li>
+                                    <li class="list-group-item" id="C">
+                                        <div class="C5">Diagonal Norte</div>
+                                    </li>
+                                    <li class="list-group-item" id="C">
+                                        <div class="C6">Retiro</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour" id="accordion-button4">
+                            <p class="button-title">Linea D</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="D">
+                                        <div class="D2">Congreso de Tucumán</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D3">Juramento</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D4">Ministro Carranza</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D5">Palermo</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D6">Plaza Italia</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D7">Pueyrredon</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D8">Facultad de Medicina</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D9">Callao</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D10">9 de julio</div>
+                                    </li>
+                                    <li class="list-group-item" id="D">
+                                        <div class="D11">Catedral</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive" id="accordion-button5">
+                            <p class="button-title">Linea E</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="E">
+                                        <div class="E2">Plaza de los Virreyes</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E3">Emilio Mitre</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E4">La Plata</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E5">Boedo</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E6">Jujuy</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E7">Entre Rios</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E8">Independencia</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E9">Bolivar</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E10">Correo Central</div>
+                                    </li>
+                                    <li class="list-group-item" id="E">
+                                        <div class="E11">Retiro</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix" id="accordion-button6">
+                            <p class="button-title">Linea H</p>
+                        </button>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item" id="H">
+                                        <div class="H2">Parque Patricios</div>
+                                    </li>
+                                    <li class="list-group-item" id="H">
+                                        <div class="H3">Caseros</div>
+                                    </li>
+                                    <li class="list-group-item" id="H">
+                                        <div class="H4">Once</div>
+                                    </li>
+                                    <li class="list-group-item" id="H">
+                                        <div class="H5">Corrientes</div>
+                                    </li>
+                                    <li class="list-group-item" id="H">
+                                        <div class="H6">Santa Fe</div>
+                                    </li>
+                                    <li class="list-group-item" id="H">
+                                        <div class="H7">Facultad de Derecho</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- ACCORDION BS -->
+                <div class="col-sm-12 col-lg-1"></div>
+                <div class="col-sm-12 col-lg-7" id="mapa-acc__img">
+                    <!-- img BS -->
+                    <img src="../img/mapas/accesibilidad_11zon.webp" class="img-fluid" alt="Mapa de Estaciones Accesibles">
+                </div>
+                <div class="col-sm-12 col-lg-1"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ends main -->
+    <!-- start footer -->
+    <footer>
+        <!-- start redes -->
+        <div class="redes">
+            <p>Buscanos en:</p>
+            <a href="https://twitter.com/basubte?s=20&t=WUW-AFniny1F-FZmYsOgrw" target="_blank">
+                <img src="../img/iconos/twblack.webp" class="img-fluid" alt="Seguinos en twitter" id="iconos-redes">
+            </a>
+            <a href="https://www.instagram.com/basubte/?hl=es" target="_blank">
+                <img src="../img/iconos/instgrblack.webp" class="img-fluid" alt="Seguinos en instagram"  id="iconos-redes">
+            </a>
+            <a href="https://www.youtube.com/user/BAsubte" target="_blank">
+                <img src="../img/iconos/ytblack.webp" class="img-fluid" alt="Miranos en Youtube"  id="iconos-redes">
+            </a>
+        </div>
+        <!-- ends redes -->
+        <!-- start mensaje -->
+        <section class="mensaje">
+            <p>Cambiando la manera de movernos...</p>
+        </section>
+        <!-- ends mensaje -->
+        <!-- start logo -->
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../img/iconos/logo2.webp" class="img-fluid" alt="Logo Subte BA">
+            </a>
+        </div>
+        <!-- ends logo -->
+    </footer>
+    <!-- ends footer -->
+    <!-- script BS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

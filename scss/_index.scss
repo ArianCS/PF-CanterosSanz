@@ -1,0 +1,569 @@
+// header index
+.division-header{
+    width: 100%;
+    height: 1rem;
+    background-color: $secondaryColor;
+}
+
+// estado lineas
+.estado{
+    margin-top: 0%;
+    #estado__titulo{
+        background-color: $secondaryColor;
+    }
+    div{
+        div{
+            display: $d-Flex;
+            justify-content: center;
+            img{
+                margin-top: $marginTop3;
+            }
+        }
+        div{    
+            display: $d-Flex;
+            justify-content: center;
+        }
+    }
+}
+
+// division de secciones
+.division{
+    width: 100%;
+    height: 10rem;
+    margin-top: $marginTop5;
+    background-color: $colorPrincipal;
+}
+
+// noticias index
+.container__noticias{
+    width: 95%;
+    margin-top: $marginTop4;
+    .noticias__titulo{
+        width: 50%;
+        margin-left: map-get($map: $left, $key: 'venti-siete');
+        @extend .text-align;
+        h2{
+            font-size: $f-Weight1;
+            color: $colorPrincipal;
+            background-color: $thirdColor;
+        }
+        p{
+            margin-top: $marginTop2;
+            font-size: $textP;
+        }
+    }
+    .container__noticias--img{
+        margin-top: $marginTop4;
+        margin-left: map-get($map: $left, $key: 'cinco');
+        @extend .text-align;
+        div{
+            div{
+                div{
+                    margin-top: $marginTop2;
+                    border: 1px solid $thirdColor;
+                    img{
+                        box-shadow: 3px 5px 14px -4px rgba(0,0,0,0.9);
+                        border-radius: 3.5px;
+                    }
+                    div{
+                        height: 100%;
+                        background-color: $thirdColor;
+                        box-shadow: 9px 10px 16px -1px rgba(0,0,0,0.47);
+                        border-radius: 10px;
+                        h3{
+                            color: $colorPrincipal;
+                            font-size: $textH3;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// seccion contacto
+.contact__form{
+    width: 100%;
+    margin-top: $marginTop5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: $fifthColor;
+    // iframe map
+    div{
+        iframe{
+            position: absolute;
+            margin-top: 0%;
+            margin-left: map-get($map: $left, $key: 'cero');
+            width: 45%;
+            height: 100%;
+            filter: blur(1.5px);
+            &:hover{
+                filter: none;
+            }
+        }
+    }
+    section{
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .title-form{
+            width: 100%;
+            text-align: center;
+            margin-top: -3%;
+            h2{
+                background-color: $fifthColor;
+            }
+            p{
+                width: 60%;
+                align-self: center;
+                margin-top: $marginTop2;
+                margin-left: 25%;
+            }
+        }
+        form{
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin-top: $marginTop2;
+            margin-left: map-get($map: $left, $key: 'cinco');
+            margin-bottom: $marginBttm2;
+            .input-group{
+                width: 80%;
+                height: 3.5rem;
+                align-self: center;
+                margin-top: $marginTop3;
+            }
+            #nombre{
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                span{
+                    width: 20%;
+                    margin-top: -2.5rem;
+                    border-radius: 3px;
+                    align-self: flex-start;
+                    background-color: $fifthColor;
+                    border: 1px solid $secondaryColor;
+                    font-weight: 700;
+                }
+                input{
+                    margin-top: $marginTop2;
+                    width: 100%;
+                    color: $thirdColor;
+                    background-color: $secondaryColor;
+                    border: 1px solid $colorPrincipal;
+                    &:hover{
+                        color: $secondaryColor;
+                        background-color: $thirdColor;
+                    }
+                }
+            }
+            #mail{
+                display: flex;
+                flex-direction: row-reverse;
+                input{
+                    height: 90%;
+                    color: $thirdColor;
+                    margin-top: 0.15rem;
+                    background-color: $secondaryColor;
+                    border: 1px solid $colorPrincipal;
+                    &:hover{
+                        color: $secondaryColor;
+                        background-color: $thirdColor;
+                    }
+                }
+                span{
+                    width: 20%;
+                    margin-left: map-get($map: $left, $key: 'uno');
+                    background-color: $fifthColor;
+                    border: 0.5px solid $secondaryColor;
+                    font-weight: 700;
+                }
+            }
+            #mensaje{
+                height: 10rem;
+                flex-direction: column;
+                span{
+                    width: 20%;
+                    margin-top: -2.5rem;
+                    border-radius: 3px;
+                    align-self: flex-start;
+                    background-color: $fifthColor;
+                    border: 1px solid $secondaryColor;
+                    font-weight: 700;
+                }
+                textarea{
+                    margin-top: $marginTop2;
+                    width: 100%;
+                    color: $thirdColor;
+                    background-color: $secondaryColor;
+                    border: 1px solid $colorPrincipal;
+                    &:hover{
+                        color: $secondaryColor;
+                        background-color: $thirdColor;
+                    }
+                }
+            }
+            .buttons{
+                width: 50%;
+                margin-top: $marginTop2;
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                input{
+                    width: 20%;
+                    margin-left: 5%;
+                    color: $colorPrincipal;
+                    background-color: $secondaryColor;
+                    margin-bottom: $marginBttm2;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    &:hover{
+                        background-color: $thirdColor;
+                    }
+                }
+            }
+        }
+    }
+}
+    @media (min-width: 270px) and (max-width: 575px){
+        // estado servicio
+        .estado{
+            div{
+                display: flex;
+                justify-content: center;
+                div{
+                    width: 45%;
+                    flex-direction: column;
+                    img{
+                        flex-direction: column;
+                    }
+                }
+                div{    
+                    flex-direction: column;
+                    p{
+                        width: 30%;
+                        margin-top: 6rem;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        // division de secciones
+        .division{
+            height: 5rem;
+        }
+        // seccion noticias
+        .container__noticias{
+            .noticias__titulo{
+                width: 80%;
+                margin-left: map-get($map: $left, $key: 'tres');
+                h2{
+                    font-size: $textH3;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+            .container__noticias--img{
+                div{
+                    div{
+                        div{
+                            div{
+                                h3{
+                                    font-size: $textP;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    // seccion contacto
+    .contact__form{
+        width: 100%;
+        margin-top: $marginTop5;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // iframe map
+        div{
+            iframe{
+                position: relative;
+                width: 100%;
+                height: auto;
+                filter: none;
+            }
+        }
+        section{
+            width: 100%;
+            .title-form{
+                h2{
+                    font-weight: 600;
+                    font-size: $textH3;
+                }
+                p{
+                    width: 90%;
+                    margin-left: 5%;
+                    font-size: 1.5rem;
+                }
+            }
+            form{
+                width: 95%;
+                margin-left: map-get($map: $left, $key: 'uno');
+                #nombre{
+                    span{
+                        width: 70%;
+                    }
+                    input{
+                        margin-bottom: -2.5rem;
+                    }
+                }
+                #mail{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 0rem;
+                    }
+                    span{
+                        width: 70%;
+                        height: auto;
+                        margin-bottom: $marginBttm2;
+                        margin-left: map-get($map: $left, $key: 'cero');
+                    }
+                }
+                #mensaje{
+                    span{
+                        width: 70%;
+                    }
+                }
+                .buttons{
+                    input{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+    // seccion noticias
+    .container__noticias{
+        .noticias__titulo{
+            width: 100%;
+            margin-left: map-get($map: $left, $key: 'tres');
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+                font-size: $textH3;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }
+        .container__noticias--img{
+            div{
+                div{
+                    div{
+                        div{
+                            h3{
+                                font-size: $textP;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // seccion contacto
+    .contact__form{
+        width: 100%;
+        margin-top: $marginTop5;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // iframe map
+        div{
+            iframe{
+                position: relative;
+                width: 100%;
+                height: auto;
+                filter: none;
+            }
+        }
+        section{
+            width: 100%;
+            .title-form{
+                h2{
+                    font-weight: 600;
+                    font-size: $textH3;
+                }
+                p{
+                    width: 90%;
+                    margin-left: 5%;
+                    font-size: 1.5rem;
+                }
+            }
+            form{
+                width: 95%;
+                margin-left: map-get($map: $left, $key: 'uno');
+                #nombre{
+                    span{
+                        width: 70%;
+                    }
+                    input{
+                        margin-bottom: -2.5rem;
+                    }
+                }
+                #mail{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 0rem;
+                    }
+                    span{
+                        width: 70%;
+                        height: auto;
+                        margin-bottom: $marginBttm2;
+                        margin-left: map-get($map: $left, $key: 'cero');
+                    }
+                }
+                #mensaje{
+                    span{
+                        width: 70%;
+                    }
+                }
+                .buttons{
+                    input{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399px){
+    // seccion contacto
+    .contact__form{
+        width: 100%;
+        margin-top: $marginTop5;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // iframe map
+        div{
+            iframe{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                filter: none;
+            }
+        }
+        section{
+            width: 100%;
+            .title-form{
+                h2{
+                    font-weight: 600;
+                    font-size: $textH3;
+                }
+                p{
+                    width: 90%;
+                    margin-left: 5%;
+                    font-size: 1.5rem;
+                }
+            }
+            form{
+                width: 95%;
+                margin-left: map-get($map: $left, $key: 'uno');
+                #nombre{
+                    span{
+                        width: 25%;
+                    }
+                    input{
+                        margin-bottom: -2.5rem;
+                    }
+                }
+                #mail{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 0rem;
+                    }
+                    span{
+                        width: 25%;
+                        height: auto;
+                        margin-bottom: $marginBttm2;
+                        margin-left: map-get($map: $left, $key: 'cero');
+                    }
+                }
+                #mensaje{
+                    span{
+                        width: 25%;
+                    }
+                }
+                .buttons{
+                    input{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// media 1400
+@media (min-width: 1400px){
+    // seccion contacto
+    .contact__form{
+        section{
+            form{
+                #nombre{
+                    span{
+                        width: 25%;
+                    }
+                }
+                #mail{
+                    span{
+                        width: 28%;
+                        height: auto;
+                        margin-top: 0.25rem;
+                        margin-bottom: $marginBttm2;
+                        margin-left: map-get($map: $left, $key: 'cero');
+                    }
+                }
+                #mensaje{
+                    span{
+                        width: 25%;
+                    }
+                }
+                .buttons{
+                    input{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}

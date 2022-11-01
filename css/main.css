@@ -1,0 +1,1619 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+.text-align, main section div .accordion div div div ul li, .historia .division-historia h2, .historia .division h3, main .horarios p, main .horarios h3, main .precios table, .container__noticias .container__noticias--img, .container__noticias .noticias__titulo, h1 {
+  text-align: center;
+}
+
+.input-form {
+  background-color: transparent;
+  margin-bottom: 2.5rem;
+  box-shadow: -9px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+
+.bg-combinaciones, section #combinacionesImg #bg-P, section #combinacionesImg #bg-H, section #combinacionesImg #bg-E, section #combinacionesImg #bg-D, section #combinacionesImg #bg-C, section #combinacionesImg #bg-B, section #combinacionesImg #bg-A {
+  width: 100%;
+  height: 5rem;
+  padding-left: 2.5rem;
+  margin-left: 0rem;
+  padding-top: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  color: #f8cc1b;
+  font-size: 6rem;
+  background-color: rgb(0, 0, 0);
+  font-family: "Raleway";
+  width: 100%;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-family: "Raleway";
+}
+
+h3 {
+  font-size: 3.25rem;
+  font-family: "Raleway";
+}
+
+p {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #f8cc1b;
+}
+nav div #navbarSupportedContent {
+  margin-top: 2.5rem;
+}
+nav div #navbarSupportedContent ul li a h3 {
+  font-size: 2rem;
+}
+nav div #navbarSupportedContent ul li a:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+nav div #navbarSupportedContent ul li ul li a {
+  font-size: 2rem;
+  color: #f8cc1b;
+  background-color: rgb(0, 0, 0);
+}
+
+footer {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 0%;
+}
+footer .redes {
+  margin-left: 1%;
+}
+footer .redes p {
+  font-size: 2rem;
+  color: #f8cc1b;
+}
+footer .mensaje p {
+  font-family: "Passions Conflict";
+  font-size: 6rem;
+  font-weight: 300;
+  color: #f8cc1b;
+  margin-top: -7rem;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  .mensaje {
+    display: none;
+  }
+}
+.division-header {
+  width: 100%;
+  height: 1rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.estado {
+  margin-top: 0%;
+}
+.estado #estado__titulo {
+  background-color: rgb(0, 0, 0);
+}
+.estado div div {
+  display: flex;
+  justify-content: center;
+}
+.estado div div img {
+  margin-top: 5rem;
+}
+.estado div div {
+  display: flex;
+  justify-content: center;
+}
+
+.division {
+  width: 100%;
+  height: 10rem;
+  margin-top: 10rem;
+  background-color: #f8cc1b;
+}
+
+.container__noticias {
+  width: 95%;
+  margin-top: 7.5rem;
+}
+.container__noticias .noticias__titulo {
+  width: 50%;
+  margin-left: 27.5%;
+}
+.container__noticias .noticias__titulo h2 {
+  font-size: bold;
+  color: #f8cc1b;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.container__noticias .noticias__titulo p {
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+.container__noticias .container__noticias--img {
+  margin-top: 7.5rem;
+  margin-left: 5%;
+}
+.container__noticias .container__noticias--img div div div {
+  margin-top: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.89);
+}
+.container__noticias .container__noticias--img div div div img {
+  box-shadow: 3px 5px 14px -4px rgba(0, 0, 0, 0.9);
+  border-radius: 3.5px;
+}
+.container__noticias .container__noticias--img div div div div {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.89);
+  box-shadow: 9px 10px 16px -1px rgba(0, 0, 0, 0.47);
+  border-radius: 10px;
+}
+.container__noticias .container__noticias--img div div div div h3 {
+  color: #f8cc1b;
+  font-size: 3.25rem;
+  font-weight: 600;
+}
+
+.contact__form {
+  width: 100%;
+  margin-top: 10rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eac11f;
+}
+.contact__form div iframe {
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 0rem;
+  width: 45%;
+  height: 100%;
+  filter: blur(1.5px);
+}
+.contact__form div iframe:hover {
+  filter: none;
+}
+.contact__form section {
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact__form section .title-form {
+  width: 100%;
+  text-align: center;
+  margin-top: -3%;
+}
+.contact__form section .title-form h2 {
+  background-color: #eac11f;
+}
+.contact__form section .title-form p {
+  width: 60%;
+  align-self: center;
+  margin-top: 2.5rem;
+  margin-left: 25%;
+}
+.contact__form section form {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  margin-left: 5%;
+  margin-bottom: 2.5rem;
+}
+.contact__form section form .input-group {
+  width: 80%;
+  height: 3.5rem;
+  align-self: center;
+  margin-top: 5rem;
+}
+.contact__form section form #nombre {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact__form section form #nombre span {
+  width: 20%;
+  margin-top: -2.5rem;
+  border-radius: 3px;
+  align-self: flex-start;
+  background-color: #eac11f;
+  border: 1px solid rgb(0, 0, 0);
+  font-weight: 700;
+}
+.contact__form section form #nombre input {
+  margin-top: 2.5rem;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.89);
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #f8cc1b;
+}
+.contact__form section form #nombre input:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.contact__form section form #mail {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contact__form section form #mail input {
+  height: 90%;
+  color: rgba(255, 255, 255, 0.89);
+  margin-top: 0.15rem;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #f8cc1b;
+}
+.contact__form section form #mail input:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.contact__form section form #mail span {
+  width: 20%;
+  margin-left: 1rem;
+  background-color: #eac11f;
+  border: 0.5px solid rgb(0, 0, 0);
+  font-weight: 700;
+}
+.contact__form section form #mensaje {
+  height: 10rem;
+  flex-direction: column;
+}
+.contact__form section form #mensaje span {
+  width: 20%;
+  margin-top: -2.5rem;
+  border-radius: 3px;
+  align-self: flex-start;
+  background-color: #eac11f;
+  border: 1px solid rgb(0, 0, 0);
+  font-weight: 700;
+}
+.contact__form section form #mensaje textarea {
+  margin-top: 2.5rem;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.89);
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #f8cc1b;
+}
+.contact__form section form #mensaje textarea:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.contact__form section form .buttons {
+  width: 50%;
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.contact__form section form .buttons input {
+  width: 20%;
+  margin-left: 5%;
+  color: #f8cc1b;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.contact__form section form .buttons input:hover {
+  background-color: rgba(255, 255, 255, 0.89);
+}
+
+@media (min-width: 270px) and (max-width: 575px) {
+  .estado div {
+    display: flex;
+    justify-content: center;
+  }
+  .estado div div {
+    width: 45%;
+    flex-direction: column;
+  }
+  .estado div div img {
+    flex-direction: column;
+  }
+  .estado div div {
+    flex-direction: column;
+  }
+  .estado div div p {
+    width: 30%;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+  }
+  .division {
+    height: 5rem;
+  }
+  .container__noticias .noticias__titulo {
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+  .container__noticias .noticias__titulo h2 {
+    font-size: 3.25rem;
+  }
+  .container__noticias .noticias__titulo p {
+    font-size: 1.5rem;
+  }
+  .container__noticias .container__noticias--img div div div div h3 {
+    font-size: 2rem;
+  }
+  .contact__form {
+    width: 100%;
+    margin-top: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact__form div iframe {
+    position: relative;
+    width: 100%;
+    height: auto;
+    filter: none;
+  }
+  .contact__form section {
+    width: 100%;
+  }
+  .contact__form section .title-form h2 {
+    font-weight: 600;
+    font-size: 3.25rem;
+  }
+  .contact__form section .title-form p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  .contact__form section form {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .contact__form section form #nombre span {
+    width: 70%;
+  }
+  .contact__form section form #nombre input {
+    margin-bottom: -2.5rem;
+  }
+  .contact__form section form #mail {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__form section form #mail input {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+  }
+  .contact__form section form #mail span {
+    width: 70%;
+    height: auto;
+    margin-bottom: 2.5rem;
+    margin-left: 0rem;
+  }
+  .contact__form section form #mensaje span {
+    width: 70%;
+  }
+  .contact__form section form .buttons input {
+    width: 60%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .container__noticias .noticias__titulo {
+    width: 100%;
+    margin-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container__noticias .noticias__titulo h2 {
+    font-size: 3.25rem;
+  }
+  .container__noticias .noticias__titulo p {
+    font-size: 1.5rem;
+  }
+  .container__noticias .container__noticias--img div div div div h3 {
+    font-size: 2rem;
+  }
+  .contact__form {
+    width: 100%;
+    margin-top: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact__form div iframe {
+    position: relative;
+    width: 100%;
+    height: auto;
+    filter: none;
+  }
+  .contact__form section {
+    width: 100%;
+  }
+  .contact__form section .title-form h2 {
+    font-weight: 600;
+    font-size: 3.25rem;
+  }
+  .contact__form section .title-form p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  .contact__form section form {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .contact__form section form #nombre span {
+    width: 70%;
+  }
+  .contact__form section form #nombre input {
+    margin-bottom: -2.5rem;
+  }
+  .contact__form section form #mail {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__form section form #mail input {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+  }
+  .contact__form section form #mail span {
+    width: 70%;
+    height: auto;
+    margin-bottom: 2.5rem;
+    margin-left: 0rem;
+  }
+  .contact__form section form #mensaje span {
+    width: 70%;
+  }
+  .contact__form section form .buttons input {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+  .contact__form {
+    width: 100%;
+    margin-top: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact__form div iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: none;
+  }
+  .contact__form section {
+    width: 100%;
+  }
+  .contact__form section .title-form h2 {
+    font-weight: 600;
+    font-size: 3.25rem;
+  }
+  .contact__form section .title-form p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+  .contact__form section form {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .contact__form section form #nombre span {
+    width: 25%;
+  }
+  .contact__form section form #nombre input {
+    margin-bottom: -2.5rem;
+  }
+  .contact__form section form #mail {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__form section form #mail input {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+  }
+  .contact__form section form #mail span {
+    width: 25%;
+    height: auto;
+    margin-bottom: 2.5rem;
+    margin-left: 0rem;
+  }
+  .contact__form section form #mensaje span {
+    width: 25%;
+  }
+  .contact__form section form .buttons input {
+    width: 60%;
+  }
+}
+@media (min-width: 1400px) {
+  .contact__form section form #nombre span {
+    width: 25%;
+  }
+  .contact__form section form #mail span {
+    width: 28%;
+    height: auto;
+    margin-top: 0.25rem;
+    margin-bottom: 2.5rem;
+    margin-left: 0rem;
+  }
+  .contact__form section form #mensaje span {
+    width: 25%;
+  }
+  .contact__form section form .buttons input {
+    width: 60%;
+  }
+}
+.mapas {
+  width: 99%;
+  height: auto;
+  padding: 1rem;
+}
+.mapas div {
+  display: flex;
+  justify-content: center;
+}
+.mapas div h2 {
+  width: 40%;
+  height: auto;
+  font-size: 4.5rem;
+  color: #f8cc1b;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.mapas img {
+  width: 45%;
+  height: 100%;
+  margin-left: 2.5rem;
+  padding-top: 5rem;
+  background-color: white;
+}
+
+section {
+  margin-top: 7.5rem;
+  margin-bottom: 2.5rem;
+}
+section h2 {
+  padding-left: 2.5rem;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  background-color: #f8cc1b;
+}
+section #combinacionesImg h3 {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-shadow: -5px 2px 4px rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.89);
+}
+section #combinacionesImg #bg-A {
+  background-color: rgb(0, 179, 223);
+}
+section #combinacionesImg #bg-B {
+  background-color: rgb(228, 38, 64);
+}
+section #combinacionesImg #bg-C {
+  background-color: rgb(1, 61, 147);
+}
+section #combinacionesImg #bg-D {
+  background-color: rgb(2, 114, 92);
+}
+section #combinacionesImg #bg-E {
+  background-color: rgb(117, 30, 124);
+}
+section #combinacionesImg #bg-H {
+  background-color: rgb(244, 201, 1);
+}
+section #combinacionesImg #bg-P {
+  background-color: rgb(245, 177, 32);
+}
+section #combinacionesImg a img {
+  margin-top: 1.25rem;
+}
+section #combinacionesImg a img:hover {
+  cursor: move;
+}
+
+@media (min-width: 270px) and (max-width: 575px) {
+  .mapas {
+    padding: 0rem;
+  }
+  .mapas div {
+    display: flex;
+  }
+  .mapas div h2 {
+    display: none;
+  }
+  .mapas img {
+    width: 100%;
+    margin-left: 0rem;
+    padding-top: 2.5rem;
+  }
+  #combinaciones {
+    margin-top: 5rem;
+    margin-bottom: 1.25rem;
+  }
+  #combinaciones h2 {
+    padding-left: 0rem;
+    font-size: 3.25rem;
+    text-align: center;
+  }
+  #combinaciones #combinacionesImg h3 {
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+  }
+  #combinaciones #combinacionesImg #bg-A {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-B {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-C {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-D {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-E {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-H {
+    height: 4rem;
+  }
+  #combinaciones #combinacionesImg #bg-P {
+    height: 4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .mapas {
+    padding: 0rem;
+  }
+  .mapas div {
+    display: flex;
+  }
+  .mapas div h2 {
+    display: none;
+  }
+  .mapas img {
+    width: 100%;
+    margin-left: 0rem;
+    padding-top: 2.5rem;
+  }
+}
+main .precios {
+  width: 85%;
+  margin-left: 7.5%;
+}
+main .precios h2 {
+  width: 90%;
+  font-size: 4.5rem;
+  color: #f8cc1b;
+  margin-left: 2.5%;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+main .precios p {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-left: 3%;
+}
+main .precios table {
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: 3.5%;
+  font-size: 2rem;
+}
+main .precios thead .primer-linea {
+  background-color: rgb(245, 177, 32);
+}
+main .precios tbody .segunda-linea {
+  background-color: #f8cc1b;
+}
+main .precios tbody .tercer-linea {
+  background-color: rgb(242, 246, 248);
+}
+main .precios div {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+main .precios div h3 {
+  margin-top: 5rem;
+  font-size: 3.25rem;
+  color: #f8cc1b;
+  margin-left: 2.5%;
+}
+main .precios div #estaciones-completas {
+  margin-top: 5rem;
+  align-self: center;
+  display: block;
+}
+main .precios div div img {
+  display: none;
+}
+main .horarios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .horarios h2 {
+  width: 100%;
+  padding-left: 0%;
+  text-align: center;
+  background-color: #f8cc1b;
+}
+main .horarios h3 {
+  width: 80%;
+  margin-top: 2.5rem;
+  font-size: 3.25rem;
+  background-color: orange;
+}
+main .horarios p {
+  width: 30%;
+  margin-top: 2.5rem;
+}
+main .horarios img {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+main .horarios div img {
+  display: none;
+}
+
+@media (min-width: 270px) and (max-width: 575px) {
+  main .precios {
+    width: 100%;
+    margin-left: 0%;
+  }
+  main .precios h2 {
+    margin-left: 2.5%;
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  main .precios p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  main .precios table {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+  main .precios table th {
+    font-size: 1.5rem;
+  }
+  main .precios table td {
+    font-size: 1.5rem;
+  }
+  main .precios div h2 {
+    font-size: 3.25rem;
+  }
+  main .precios div h3 {
+    width: 100%;
+    font-size: 3.25rem;
+    font-weight: bold;
+  }
+  main .precios div #estaciones-completas {
+    display: none;
+  }
+  main .precios div div img {
+    display: block;
+  }
+  main .horarios {
+    width: 100%;
+  }
+  main .horarios h2 {
+    width: 100%;
+    padding-left: 0%;
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  main .horarios h3 {
+    width: 90%;
+    font-size: 2rem;
+  }
+  main .horarios p {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  main .horarios img {
+    display: none;
+  }
+  main .horarios div img {
+    display: block;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  main .precios {
+    width: 90%;
+    margin-left: 7.5%;
+  }
+  main .precios h2 {
+    margin-left: 2.5%;
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  main .precios p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  main .precios table {
+    width: 90%;
+    text-align: center;
+  }
+  main .precios div h2 {
+    font-size: 3.25rem;
+  }
+  main .precios div h3 {
+    width: 100%;
+    font-size: 3.25rem;
+    font-weight: bold;
+  }
+  main .horarios {
+    width: 100%;
+  }
+  main .horarios h2 {
+    width: 100%;
+    padding-left: 0%;
+    text-align: center;
+    font-size: 3.25rem;
+  }
+  main .horarios h3 {
+    width: 70%;
+    font-size: 2rem;
+  }
+  main .horarios p {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  main .horarios img {
+    display: none;
+  }
+  main .horarios div img {
+    display: block;
+  }
+}
+.historia div #historiaTitle {
+  width: 60%;
+  margin-left: 30%;
+  padding-left: 5%;
+  margin-top: 5rem;
+  color: #f8cc1b;
+}
+.historia #presentacion div {
+  display: flex;
+  justify-content: center;
+}
+.historia #presentacion div div {
+  margin-top: 2.5rem;
+}
+.historia #presentacion div div iframe {
+  margin-top: 5rem;
+}
+.historia .division h3 {
+  font-size: 3.25rem;
+  font-weight: 500;
+  padding-top: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+.historia #old-pictures {
+  margin-top: 5rem;
+}
+.historia #old-pictures .audiovisual__fotos {
+  width: 99%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 600px);
+  grid-template-rows: repeat(3, 450px);
+  grid-template-areas: "a a b" "c d e" "g f f";
+  gap: 2.75rem;
+}
+.historia #old-pictures .audiovisual__fotos #a {
+  grid-area: a;
+}
+.historia #old-pictures .audiovisual__fotos #b {
+  grid-area: b;
+}
+.historia #old-pictures .audiovisual__fotos #c {
+  grid-area: c;
+}
+.historia #old-pictures .audiovisual__fotos #d {
+  grid-area: d;
+}
+.historia #old-pictures .audiovisual__fotos #e {
+  grid-area: e;
+}
+.historia #old-pictures .audiovisual__fotos #f {
+  grid-area: f;
+}
+.historia #old-pictures .audiovisual__fotos #g {
+  grid-area: g;
+}
+.historia .division-historia h2 {
+  width: 100%;
+  height: 10vh;
+  font-size: 3.25rem;
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0rem;
+  margin-bottom: 2.5rem;
+  color: rgb(0, 0, 0);
+  background-color: #f8cc1b;
+}
+.historia .audiovisual__historia #linea-A {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.historia .audiovisual__historia #linea-A img {
+  margin: 0%;
+}
+@media (max-width: 1652px) {
+  .historia .audiovisual__historia #linea-A {
+    flex-direction: column;
+    align-items: center;
+  }
+  .historia .audiovisual__historia #linea-A img {
+    width: 75%;
+    margin-top: 1.25rem;
+  }
+}
+.historia .audiovisual__historia p {
+  width: 75%;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 3.5rem;
+}
+.historia .audiovisual__historia #mapa {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.extensiones h2 {
+  width: 80%;
+  margin-top: 5rem;
+  text-align: center;
+  color: #f8cc1b;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+.extensiones p {
+  width: 80%;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  font-size: 2rem;
+}
+.extensiones h3 {
+  width: 80%;
+  font-size: 3.25rem;
+  margin-top: 5rem;
+  margin-left: 3.5rem;
+  color: #f8cc1b;
+}
+.extensiones div {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#premetro h2 {
+  width: 20%;
+  margin-top: 5rem;
+  margin-left: 7.5rem;
+  color: #f8cc1b;
+}
+#premetro #fotos-pre {
+  display: flex;
+  justify-content: space-evenly;
+}
+#premetro #fotos-pre img {
+  margin: 0%;
+}
+#premetro .premetro__txt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#premetro .premetro__txt p {
+  width: 80%;
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1652px) {
+  #fotos-pre {
+    flex-direction: column;
+    align-items: center;
+  }
+  #fotos-pre img {
+    width: 40%;
+    margin-top: 1.25rem;
+  }
+}
+@media (max-width: 1400px) {
+  .historia div #historiaTitle {
+    width: 60%;
+    margin-left: 28rem;
+    padding-left: 5%;
+  }
+  .historia #presentacion div {
+    flex-direction: column;
+  }
+  .historia #presentacion div div {
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .historia div #historiaTitle {
+    width: 90%;
+    margin-left: 3.5rem;
+  }
+  .historia #presentacion div div iframe {
+    width: 100%;
+    align-self: center;
+  }
+}
+@media (max-width: 590px) {
+  .historia div #historiaTitle {
+    font-size: 3.25rem;
+  }
+  .division {
+    display: none;
+  }
+  .division h3 {
+    display: none;
+  }
+  #fotos-pre img {
+    width: 60%;
+  }
+}
+@media (max-width: 380px) {
+  .historia div #historiaTitle {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .historia #presentacion div div iframe {
+    height: 20rem;
+  }
+  .historia #premetro h2 {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+  .historia #premetro #fotos-pre img {
+    width: 80%;
+  }
+}
+main section div div div p {
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+main section div div div h2 {
+  color: #f8cc1b;
+  margin-top: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion {
+  margin-top: 10rem;
+  margin-bottom: 2.5rem;
+}
+main section div .accordion div {
+  box-shadow: -6px 7px 7px 0px rgba(92, 72, 72, 0.75);
+}
+main section div .accordion div button {
+  height: 4rem;
+}
+main section div .accordion div button p {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: -5px 2px 4px rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div button p:hover {
+  color: rgb(0, 0, 0);
+}
+main section div .accordion div div div ul li {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 400;
+}
+main section div .accordion div div div ul #A {
+  margin-top: 3px;
+  border: 1px solid rgb(0, 179, 223);
+  background-color: rgb(0, 179, 223);
+}
+main section div .accordion div div div ul #A .A2 {
+  background-color: #00b8e6;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A3 {
+  background-color: #00ccff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A4 {
+  background-color: #1ad1ff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A5 {
+  background-color: #33d6ff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A6 {
+  background-color: #4ddbff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A7 {
+  background-color: #66e0ff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A7:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A8 {
+  background-color: #80e5ff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A8:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A9 {
+  background-color: #99ebff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A9:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #A .A10 {
+  background-color: #b3f0ff;
+  box-shadow: none;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #A .A10:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B {
+  border: 1px solid rgb(228, 38, 64);
+  background-color: rgb(228, 38, 64);
+}
+main section div .accordion div div div ul #B .B2 {
+  box-shadow: none;
+  background-color: #e6334b;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B3 {
+  box-shadow: none;
+  background-color: #e9495f;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B4 {
+  box-shadow: none;
+  background-color: #eb6073;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B5 {
+  box-shadow: none;
+  background-color: #ee7787;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B6 {
+  box-shadow: none;
+  background-color: #f18e9b;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B7 {
+  box-shadow: none;
+  background-color: #f4a4af;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B7:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B8 {
+  box-shadow: none;
+  background-color: #f7bbc3;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B8:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B9 {
+  box-shadow: none;
+  background-color: #f9d2d7;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B9:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #B .B10 {
+  box-shadow: none;
+  background-color: #fce8eb;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #B .B10:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #C {
+  border: 1px solid rgb(1, 61, 147);
+  background-color: rgb(1, 61, 147);
+}
+main section div .accordion div div div ul #C .C2 {
+  box-shadow: none;
+  background-color: #014098;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #C .C2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #C .C3 {
+  box-shadow: none;
+  background-color: #014bb2;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #C .C3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #C .C4 {
+  box-shadow: none;
+  background-color: #0155cb;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #C .C4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #C .C5 {
+  box-shadow: none;
+  background-color: #0160e4;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #C .C5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #C .C6 {
+  box-shadow: none;
+  background-color: #0160e4;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #C .C6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D {
+  border: 1px solid rgb(2, 114, 92);
+  background-color: rgb(2, 114, 92);
+}
+main section div .accordion div div div ul #D .D2 {
+  box-shadow: none;
+  background-color: #027e65;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D3 {
+  box-shadow: none;
+  background-color: #029779;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D4 {
+  box-shadow: none;
+  background-color: #03b08d;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D5 {
+  box-shadow: none;
+  background-color: #03c9a1;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D6 {
+  box-shadow: none;
+  background-color: #03e2b6;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D7 {
+  box-shadow: none;
+  background-color: #04fbca;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D7:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D8 {
+  box-shadow: none;
+  background-color: #1dfccf;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D8:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D9 {
+  box-shadow: none;
+  background-color: #36fcd4;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D9:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D10 {
+  box-shadow: none;
+  background-color: #4ffcda;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D10:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #D .D11 {
+  box-shadow: none;
+  background-color: #68fddf;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #D .D11:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E {
+  border: 1px solid rgb(117, 30, 124);
+  background-color: rgb(117, 30, 124);
+}
+main section div .accordion div div div ul #E .E2 {
+  box-shadow: none;
+  background-color: #882390;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E3 {
+  box-shadow: none;
+  background-color: #9c28a4;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E4 {
+  box-shadow: none;
+  background-color: #af2db9;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E5 {
+  box-shadow: none;
+  background-color: #c332cd;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E6 {
+  box-shadow: none;
+  background-color: #c946d2;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E7 {
+  box-shadow: none;
+  background-color: #cf5bd7;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E7:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E8 {
+  box-shadow: none;
+  background-color: #d56fdc;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E8:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E9 {
+  box-shadow: none;
+  background-color: #db84e1;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E9:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E10 {
+  box-shadow: none;
+  background-color: #e198e6;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E10:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #E .E11 {
+  box-shadow: none;
+  background-color: #e7adeb;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #E .E11:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H {
+  border: 1px solid rgb(244, 201, 1);
+  background-color: rgb(244, 201, 1);
+}
+main section div .accordion div div div ul #H .H2 {
+  box-shadow: none;
+  background-color: #fecf01;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H2:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H .H3 {
+  box-shadow: none;
+  background-color: #fed41b;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H3:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H .H4 {
+  box-shadow: none;
+  background-color: #fed934;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H4:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H .H5 {
+  box-shadow: none;
+  background-color: #fede4d;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H5:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H .H6 {
+  box-shadow: none;
+  background-color: #fee267;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H6:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+main section div .accordion div div div ul #H .H7 {
+  box-shadow: none;
+  background-color: #fee780;
+  border-radius: 12px;
+}
+main section div .accordion div div div ul #H .H7:hover {
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.accordion-item1, #accordion-button1 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(0, 179, 223);
+}
+
+.accordion-item2, #accordion-button2 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(228, 38, 64);
+  margin-top: 2.5rem;
+}
+
+.accordion-item3, #accordion-button3 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(1, 61, 147);
+  margin-top: 2.5rem;
+}
+
+.accordion-item4, #accordion-button4 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(2, 114, 92);
+  margin-top: 2.5rem;
+}
+
+.accordion-item5, #accordion-button5 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(117, 30, 124);
+  margin-top: 2.5rem;
+}
+
+.accordion-item6, #accordion-button6 {
+  border-radius: 11px 4px 11px 6px;
+  background-color: rgb(244, 201, 1);
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 270px) {
+  /* accesibilidad */
+  main {
+    margin-left: 0.01rem;
+  }
+  main section div div div p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  main section div div div h2 {
+    font-size: 3.25rem;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
