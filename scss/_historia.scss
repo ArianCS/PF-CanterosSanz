@@ -34,43 +34,14 @@
     // fotos
     #old-pictures{
         margin-top: $marginTop3;
-        .audiovisual__fotos{
-            width: 99%;
-            height: auto;
-            display: grid;
-            grid-template-columns: repeat(3, 600px);
-            grid-template-rows: repeat(3, 450px);
-            grid-template-areas:
-            "a a b"
-            "c d e"
-            "g f f";
-            gap: 2.75rem;
-            #a{
-                grid-area: a;
-            }
-        
-            #b{
-                grid-area: b;
-            }
-        
-            #c{
-                grid-area: c;
-            }
-        
-            #d{
-                grid-area: d;
-            }
-        
-            #e{
-                grid-area: e;
-            }
-        
-            #f{
-                grid-area: f;
-            }
-        
-            #g{
-                grid-area: g;
+        div{
+            div{
+                div{
+                    img{
+                        width: 100%;
+                        height: 75%;
+                    }
+                }
             }
         }
     }
@@ -90,41 +61,21 @@
         }
     }
     .audiovisual__historia{
-        #linea-A{
-            width: 100%;
-            display:flex;
-            justify-content: space-evenly;
-            img{
-                margin: 0%;
-            }
-        }
-        // media especial
-        @media (max-width:1652px){
-            #linea-A{
-                flex-direction: column;
-                align-items: center;
-                img{
-                    width: 75%;
-                    margin-top: $marginTop1;
-                }
-            }
-        }
-        p{
-            width: 75%;
-            margin-top: $marginTop3;
+        .audiovisual__historia--p{
+            width: 80%;
+            margin-top: $marginTop1;
             margin-bottom: $marginBttm2;
-            margin-left: map-get($map: $left, $key: 'tres');
+            margin-left: 10rem;
         }
         #mapa{
-            margin-top: $marginTop3;
-            display: flex;
-            justify-content: center;
+            margin-left: 7.5rem;
         }
     }
 }
 
 // extensiones
 .extensiones{
+    margin-left: 10rem;
     h2{
         width: 80%;
         margin-top: $marginTop3;
@@ -135,7 +86,7 @@
     p{
         width: 80%;
         margin-top: $marginTop3;
-        margin-left: map-get($map: $left, $key: 'quince');
+        margin-left: map-get($map: $left, $key: 'uno');
         font-size: $textP;
     }
     h3{
@@ -154,18 +105,15 @@
 
 // extensiones premetro
 #premetro{
+    margin-left: 10rem;
     h2{
         width: 20%;
         margin-top: $marginTop3;
         margin-left: map-get($map: $left, $key: 'siete');
         color: $colorPrincipal;
     }
-    #fotos-pre{
-       display: flex;
-       justify-content: space-evenly;
-       img{
-        margin: 0%;
-       }
+    p{
+        width: 80%;
     }
     .premetro__txt{
         width: 100%;
@@ -242,7 +190,8 @@
             }
         }
     }
-    .division{display: none;
+    .division{
+        display: none;
         h3{
             display: none;
         }
@@ -262,6 +211,17 @@
                 margin-left: 0%;
             }
         }
+        .audiovisual__historia{
+            .audiovisual__historia--p{
+                margin-left: 2.5rem;
+            }
+            #mapa{
+                margin-left: 2.5rem;
+            }
+        }
+        .extensiones{
+            margin-left: 2.5rem;
+        }
         #presentacion{
             div{
                 div{
@@ -272,6 +232,7 @@
             }
         }
         #premetro{
+            margin-left: 2.5rem;
             h2{
                 width: 100%;
                 margin-left: 0%;
